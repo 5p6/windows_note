@@ -65,9 +65,9 @@ $$\begin{align}
     &= 4
 \end{align}$$
 
-<<<<<<< HEAD
+
 (2)设曲线 $\Gamma: x^2 +y^2 +z^2 = 4,x+y+z=2$,求积分$\oint_{\Gamma} x^2 + z ds$
-=======
+
 
 (2)设曲线 $\Gamma: x^2 +y^2 +z^2 = 4,x+y+z=2$,求积分$\oint_{\Gamma} x^2 + z ds$
 
@@ -77,7 +77,7 @@ $$\begin{align}
 (2)设曲线 $\Gamma: x^2 +y^2 +z^2 = 4,x+y+z=2$,求积分 $\oint_{\Gamma} x^2 + z ds$
 
 
->>>>>>> 182497d (new)
+
 解:
 
 $$\begin{align} 
@@ -88,10 +88,10 @@ $$\begin{align}
 
 
 ## 3.场论曲线积分
-<<<<<<< HEAD
+
 假设有高维力场 $\vec{F} =\sum_{i=1}^{n} F_i\vec{e_{i}} $，沿着一条高维曲线路径 $\gamma$做功,其积分表达式可以写为
 
-=======
+
 
 假设有高维力场 $\vec{F} =\sum_{i=1}^{n} F_i\vec{e_{i}} $，沿着一条高维曲线路径 $\gamma$做功,其积分表达式可以写为
 
@@ -102,7 +102,7 @@ $$\begin{align}
 
 
 
->>>>>>> 182497d (new)
+
 $$\begin{align}
     dW &= \vec{F} \cdot \vec{dx} \\
 \end{align}$$

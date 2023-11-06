@@ -36,8 +36,8 @@ $$\begin{align}
     p^2 = (\frac{dy}{dx})^2 \\
     \frac{dp}{dx} =  \frac{d^2 y}{dx^2}
 \end{align}$$
-<<<<<<< HEAD
-=======
+
+
 
 
 
@@ -96,4 +96,4 @@ $$\begin{align}
 \end{align}$$
 
 
->>>>>>> 182497d (new)
+
