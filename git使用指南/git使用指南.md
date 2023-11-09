@@ -1,3 +1,4 @@
+## 一.快速入门
 ### 1.生成标识和邮箱
 调用 "git-bash.exe"
 ``` C++ {.line-numbers}
@@ -43,4 +44,8 @@ git init //初始化本地仓库
 笔记仓库
 `git@github.com:5p6/note.git`
 
+## 二.记录
+### 1.坑
+当你在某个文件夹 `git init` 后,如果你后面还要传文件上去,你不必再 `git init` 了,直接 `git add`  和 `git comment` ,并且也不用 `git remote` 来确定远程仓库,直接 `git push` 即可.
+`git init` 仅仅是创建`.git` 文件,并且在文件中加入一些必要的东西,所以一次就够了.
 
