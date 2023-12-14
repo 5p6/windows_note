@@ -2,12 +2,14 @@
 ### 1.生成标识和邮箱
 调用 "git-bash.exe"
 ``` C++ {.line-numbers}
+//code
 git config --global user.name "${用户名称}" 
 git config --global user.email "${用户邮箱}"
 ```
 ### 2.生成 SSH Key 密钥
 2.1生成密钥
 ```C++ {.line-numbers}
+//code
 ssh-keygen -t rsa -C "${用户邮箱}"
 ```
 1) 路径确认

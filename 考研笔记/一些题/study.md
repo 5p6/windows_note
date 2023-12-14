@@ -4,7 +4,7 @@
 $$\begin{cases}
     1.a \leq f(x) \leq b ,x \in [a,b] \\
     2.\forall x,y \in [a,b] ,|f(x) - f(y)| \leq \frac{1}{2} |x - y| \\
-    3. \left\{ x_n \right\} , a \leq x_1 \leq b , x_{n+1} = \frac{1}{2}[x_n + f(x_n)] 
+    3. \{ x_n \} , a \leq x_1 \leq b , x_{n+1} = \frac{1}{2}[x_n + f(x_n)] 
 \end{cases}$$
 
 证明:
@@ -106,4 +106,59 @@ $$\begin{align}
 
 $$\begin{align}
     \lim\limits_{n\rightarrow + \infty} x_n = c
+\end{align}$$
+
+
+---
+解:
+$$\begin{align}
+    \int^t_{-\infty} (t - 1) d\delta(\tau) &= t\int^t_{-\infty} d\delta(\tau) - \int^{t}_{-\infty} d\delta(\tau) \\
+    &=t\delta(\tau)|^t_{-\infty} - \delta(\tau)|^{t}_{-\infty} \\
+    &=t\delta(t) - 0 - \delta(t) - 0 \\
+    &=-\delta(t)
+\end{align}$$
+
+---
+解:
+$$\begin{align}
+    p(t) &= \sum_{n=-\infty}^{\infty}(-1)^n \delta(t - nT) \\
+    &=\sum_{n=-\infty}^{+\infty}\delta(t - 2nT) -  \sum_{n=-\infty}^{+\infty}\delta(t - 2nT - T)
+\end{align}$$
+
+则
+$$\begin{align}
+    P(jw) &= \frac{2\pi}{2T}\sum_{n=-\infty}^\infty \delta(w - n\frac{2\pi}{2T}) - \frac{2\pi}{2T}\sum_{n=-\infty}^\infty \delta(w - n\frac{2\pi}{2T})e^{-jTw} \\
+    &=\frac{\pi}{T}\sum_{n=-\infty}^\infty \delta(w - n\frac{\pi}{T})(1 - e^{jT\frac{n\pi}{T}}) \\
+    &=\frac{\pi}{T}\sum_{n=-\infty}^\infty \delta(w - n\frac{\pi}{T})(1 - e^{-j\pi n})  \\
+    &=\frac{\pi}{T}\sum_{n=-\infty}^\infty \delta(w - n\frac{\pi}{T})(1 - (-1)^n) 
+\end{align}$$
+
+解法二:
+$$\begin{align}
+    p(t) &= \sum_{n=-\infty}^{\infty}(-1)^n \delta(t - nT) \\ 
+    &=\sum_{n=-\infty}^{\infty}e^{j\pi n} \delta(t - nT) \\
+    &=\sum_{n=-\infty}^{+\infty}e^{j\frac{\pi}{T}t}\delta(t - nT)  \\
+    &=e^{j\frac{\pi}{T}t}\sum_{n=-\infty}^{+\infty}\delta(t - nT)
+\end{align}$$
+
+得到
+$$\begin{align}
+    P(jw) = C(j(w - \frac{\pi}{T}))
+\end{align}$$
+
+其中
+$$\begin{align}
+    C(jw) = \frac{2\pi}{T} \sum_{n=-\infty}^\infty \delta(w - n\frac{2\pi}{T})
+\end{align}$$
+
+则
+$$\begin{align}
+    P(jw) &= C(j(w - \frac{\pi}{T})) \\
+    &=\frac{2\pi}{T} \sum_{n=-\infty}^\infty \delta(w - n\frac{2\pi}{T} - \frac{\pi}{T}) \\
+    &=\frac{2\pi}{T} \sum_{n=-\infty}^\infty \delta(w - (2n+1)\frac{\pi}{T})
+\end{align}$$
+
+---
+$$\begin{align}
+    T_{WF}(s) =  \frac{G_1G_2 + a}{1 - G_2B_1 - G_3B_2}
 \end{align}$$

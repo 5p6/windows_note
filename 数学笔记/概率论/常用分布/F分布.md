@@ -24,7 +24,7 @@ $$\begin{align}
 1.先求分子分母的密度函数:
 
 $$\begin{align}
-    P\left\{\frac{\xi}{n} \leq x\right\} &= P\left\{\xi \leq nx\right\} \\
+    P\{\frac{\xi}{n} \leq x\} &= P\{\xi \leq nx\} \\
     &= \int^{nx}_{-\infty} f_\xi(\tau) d\tau 
 \end{align}$$
 
@@ -87,4 +87,3 @@ $$\begin{align}
         0 , else
     \end{cases}
 \end{align}$$
-

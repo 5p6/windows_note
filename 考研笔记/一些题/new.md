@@ -1,7 +1,7 @@
 
 $$\begin{align}
     &\int^{\infty}_{-\infty} \int^{\infty}_{-\infty} h_1^{*}(u)h_2(v) \frac{N_0}{2}\delta(u+\tau - v) dudv \\
-    &= \frac{N_0}{2}\int^{\infty}_{-\infty} \int^{\infty}_{-\infty} h_1^{*}(u)h_2(v) \delta\left\{-[v-(u+\tau)]\right\} dudv \\
+    &= \frac{N_0}{2}\int^{\infty}_{-\infty} \int^{\infty}_{-\infty} h_1^{*}(u)h_2(v) \delta\{-[v-(u+\tau)]\} dudv \\
 \end{align}$$
 
 由于单位冲激函数是一个偶函数 $\delta(-t) = \delta(t)$,上式就变为:
@@ -16,13 +16,13 @@ $$\begin{align}
 
 
 
-
+---
 $$\begin{align}
     \displaystyle \frac{s^{-2} + 3 s^{-1}}{1 + \frac{3}{4}s^{-1} + \frac{1}{8}s^{-2}}
 \end{align}$$
 
 
-
+---
 如果 $F[f(t)] = F(jw)$
 
 $$\begin{align}
@@ -42,7 +42,7 @@ $$\begin{align}
 
 
 
-
+---
 解:
 
 $$\begin{align}

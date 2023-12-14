@@ -9,7 +9,7 @@
 设 $\varphi = \sqrt{\eta / n}$ ,则:
 
 $$\begin{align}
-    P\left\{\varphi \leq y\right\}  =  P\left\{\sqrt{\eta / n} \leq y\right\}
+    P\{\varphi \leq y\}  =  P\{\sqrt{\eta / n} \leq y\}
 \end{align}$$
 
 讨论:
@@ -17,8 +17,8 @@ $$\begin{align}
 2.$x\geq 0$ 时
 
 $$\begin{align}
-    P\left\{\varphi \leq y\right\}  &=  P\left\{\sqrt{\eta / n} \leq y\right\}\\
-    &=P\left\{\eta  \leq ny^2\right\} \\
+    P\{\varphi \leq y\}  &=  P\{\sqrt{\eta / n} \leq y\}\\
+    &=P\{\eta  \leq ny^2\} \\
     &=\int^{ny^2}_0 \frac{x^{\frac{n}{2}-1}}{\Gamma(\frac{n}{2})2^{\frac{n}{2}}} e^{-\frac{x}{2}} dx
 \end{align}$$
 
