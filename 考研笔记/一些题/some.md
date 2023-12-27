@@ -235,7 +235,7 @@ $$\begin{align}
 ---
 $$\begin{align}
     \begin{cases}
-        T_s \leq 2\\
+        T_s \leq \frac{1}{2}\\
         2\pi \leq w_c \leq w_s - 2\pi
     \end{cases}
 \end{align}$$
@@ -269,4 +269,32 @@ $$\begin{align}
 则
 $$\begin{align}
     F(jw) = \pi\delta(w) + \frac{1 - e^{-jw}}{(jw)^2} 
+\end{align}$$
+
+
+---
+
+$$\begin{align}
+    g(t) &=f(t) * g_2(t) \\
+    &=\frac{1}{2\pi}\int^{+\infty}_{-\infty} F(w)2Sa(w)e^{jwt}dw  
+\end{align}$$
+
+则 
+$$\begin{align}
+    g(2) &=\frac{1}{2\pi}\int^{+\infty}_{-\infty} F(w)2Sa(w)e^{j2w}dw   \\
+    &=\int^{+\infty}_{-\infty} f(\tau)g_2(2 - \tau) d\tau \\   
+\end{align}$$
+
+注意到 $g_2(t)$ 为偶函数,则
+$$\begin{align}
+    \int^{+\infty}_{-\infty} f(\tau)g_2(2 - \tau) d\tau &= \int^{+\infty}_{-\infty} g(\tau - 2) f(\tau) d\tau \\
+    &=\int^3_1 f(\tau) d\tau \\
+    &= 4 - \frac{1}{2} \\
+    &= \frac{7}{2}
+\end{align}$$ 
+
+则
+$$\begin{align}
+    \frac{1}{2\pi}\int^{+\infty}_{-\infty} F(w)2Sa(w)e^{j2w}dw   
+    &=\frac{7}{2} \rightarrow \int^{+\infty}_{-\infty} F(w)2Sa(w)e^{j2w}dw = 7\pi
 \end{align}$$

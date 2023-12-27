@@ -91,18 +91,6 @@ $$\begin{align}
 
 假设有高维力场 $\vec{F} =\sum_{i=1}^{n} F_i\vec{e_{i}} $，沿着一条高维曲线路径 $\gamma$做功,其积分表达式可以写为
 
-
-
-假设有高维力场 $\vec{F} =\sum_{i=1}^{n} F_i\vec{e_{i}} $，沿着一条高维曲线路径 $\gamma$做功,其积分表达式可以写为
-
-
-假设有高维力场 $\vec{F} =\sum_{i=1}^{n} F_i\vec{e_{i}} $，沿着一条高维曲线路径 $\gamma$做功,其积分表达式可以写为
-
-假设有高维力场 $\vec{F} =\sum_{i=1}^{n} F_i\vec{e_{i}} $，沿着一条高维曲线路径 $\gamma$ 做功,其积分表达式可以写为
-
-
-
-
 $$\begin{align}
     dW &= \vec{F} \cdot \vec{dx} \\
 \end{align}$$
