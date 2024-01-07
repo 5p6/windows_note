@@ -51,3 +51,11 @@ git init //初始化本地仓库
 当你在某个文件夹 `git init` 后,如果你后面还要传文件上去,你不必再 `git init` 了,直接 `git add`  和 `git comment` ,并且也不用 `git remote` 来确定远程仓库,直接 `git push` 即可.
 `git init` 仅仅是创建`.git` 文件,并且在文件中加入一些必要的东西,所以一次就够了.
 
+### 2.创建分支和递交
+```shell
+## 创建分支
+git branch -M 分支名
+## 递交内容
+git push -u origin 分支名
+```
+
